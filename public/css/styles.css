@@ -1,0 +1,291 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+#right-header {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 3rem;
+}
+
+h1,
+h2 {
+    color: #333536;
+    font-size: 1.5rem;
+    margin: 2rem 0 2rem 3rem;
+}
+
+h3 {
+    color: #333536;
+}
+
+p {
+    color: #333536;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    min-height: 400px;
+}
+
+section {
+    width: 50%;
+}
+
+#denouce-section {
+    width: 100vw;
+}
+
+.full-section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #333536;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+.register-title {
+    margin: 1rem 0;
+}
+
+.register-field {
+    margin: 2rem 0;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.register-field > input {
+    background-color: transparent;
+    border: 1px solid #333536;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    height: 1.2rem;
+}
+
+#denouce-list {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+
+.debtors-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-button-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#seeList-form {
+    margin: 0;
+}
+
+#welcome-text {
+    padding: 0 3rem;
+    text-align: center;
+}
+
+a {
+    color: #333536;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 3rem;
+}
+
+#debtors-list {
+    flex-direction: column;
+}
+
+li {
+    margin-right: 3rem;
+}
+
+.user-card {
+    border: 1px solid #333536;
+    border-radius: 5px;
+    padding: 5px 2rem;
+    width: 300px;
+    margin-bottom: 3rem;
+}
+
+.debtor-card {
+    border: 1px solid #333536;
+    border-radius: 5px;
+    padding: 5px 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.img-box {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img-box > img {
+    width: 150px;
+    height: 150px;
+}
+
+.debtor-infos {
+    padding: 0 2rem;
+    width: 200px;
+}
+
+.created_at {
+    font-size: 0.8rem;
+}
+
+.card-description {
+    margin: 1rem 0 1.5rem;
+}
+
+#no-pizzas {
+    margin-left: 3rem;
+    color: #333536;
+    font-weight: bold;
+}
+
+label {
+    color: #333536;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 8rem;
+    display: inline-block;
+}
+
+#image-button {
+    background-color: #e71e25;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+#image-button:hover {
+    cursor: pointer;
+}
+
+form {
+    margin-left: 3rem;
+}
+
+.patch-form {
+    margin: 0;
+}
+
+.logout-form {
+    margin: 0;
+}
+
+button {
+    background-color: #e71e25;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-large {
+    font-size: 1.5rem;
+}
+
+.seeList-button {
+    margin-top: 3rem;
+}
+
+#image {
+    display: none;
+}
+
+.field {
+    margin: 1rem 0;
+}
+
+.obs-field {
+    display: flex;
+}
+
+#observation {
+    margin-left: 3rem;
+    padding: 5px;
+}
+
+.img-section {
+    text-align: center;
+}
+
+.img-security {
+    width: 400px;
+    margin-top: 3rem;
+}
+
+.debtor-title {
+    border-bottom: 1px solid #7a7a7a;
+    margin-bottom: 1rem;
+}
+
+.debtor-email {
+    margin: 0 3rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #7a7a7a;
+    padding: 2rem;
+}
+
+footer > p {
+    color: white;
+}
