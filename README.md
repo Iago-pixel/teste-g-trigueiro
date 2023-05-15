@@ -1,64 +1,69 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<center><img src="./public/img/gtroigueiro-150x150.png"></center>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Teste técnico G Trigueiro
 
-## About Laravel
+## Site aonde usuários podem denunciar para um administrador funcionarios da G Trigueiro que deixarem o computador desbloqueado. Desenvolvido para um teste técnico para a G Trigueiro
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<br>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h4 align="center"> 
+	🚧  Em construção...  🚧
+</h4>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Features
 
-## Learning Laravel
+-   [ ] Responsividade
+-   [ ] CRUD de usuário
+-   [ ] CRUD das denúncias
+-   [ ] Adm ver imagem ampliada
+-   [ ] Adm ver denuncias quitadas também
+-   [ ] Adm poder atualizar e deleter usuários e denuncias
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<br>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Pré-requisitos
 
-## Laravel Sponsors
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Laravel](https://laravel.com/docs/7.x/installation), [Apache](https://www.apachefriends.org/pt_br/index.html), [MySQL](https://www.apachefriends.org/pt_br/index.html).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### 🎲 Rodando
 
-### Premium Partners
+```bash
+# Clone este repositório
+$ git clone <https://github.com/Iago-pixel/teste-g-trigueiro.git>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+# Acesse a pasta do projeto no terminal/cmd
+$ cd teste-g-trigueiro
 
-## Contributing
+# Instale as dependências
+$ composer install
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+# Execute as migrates
+$ php artisan migrate
 
-## Code of Conduct
+# O servidor inciará com
+$ php artisan serve
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<br>
 
-## Security Vulnerabilities
+### 🛠 Tecnologias
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## License
+[![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=plastic&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=plastic&logo=laravel&logoColor=white)](https://laravel.com/)
+[![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=plastic&logo=php&logoColor=white)](https://www.php.net/)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<br>
+
+<img style="border-radius: 50%;" src="./public/img/perfil.jpeg" width="100px;" alt="foto de Iago Vinícius"/>
+<br />
+<sub><b>Iago Vinícius</b></sub>
+
+Feito com ❤️ por Iago Vinícius 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Iago%20Vinícius-blue?style=plastic&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/iago-vinicius-souza/)](https://www.linkedin.com/in/iago-vinicius-souza/)
+![Whatsapp Badge](https://img.shields.io/badge/-+5584987473102-25D366?style=plastic&logo=whatsapp&logoColor=white&link=tel:+5584987473102)
+[![Hotmail Badge](https://img.shields.io/badge/-pristonvinicius@hotmail.com-0078D4?style=plastic&logo=microsoft-outlook&logoColor=white&link=mailto:pristonvinicius@hotmail.com)](mailto:pristonvinicius@hotmail.com)
